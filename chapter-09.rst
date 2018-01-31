@@ -4871,9 +4871,6 @@ slot 3 and a WS-X6748-GE-TX with a DFC3CXL in slot 4, highlighted.
 
 Mod Ports Card Type Model Serial No.
 
---- ----- -------------------------------------- ------------------
------------
-
 1 5 Supervisor Engine 720 10GE (Active) VS-S720-10G SAL14480SAC
 
 2 5 Supervisor Engine 720 10GE (Cold) VS-S720-10G SAL12373BV5
@@ -4886,8 +4883,6 @@ SAL1440VP6T**
 
 Mod MAC addresses Hw Fw Sw Status
 
---- ---------------------------------- ------ ------------ ------------
--------
 
 1 c47d.4ffe.68d8 to c47d.4ffe.68df 3.2 8.5(4) 12.2(33)SXI4 Ok
 
