@@ -60,9 +60,7 @@ following figure.
 
 1. High-Level Overview of the Cisco Digital Network Architecture
 
-|image1|
-.. image:: media/image2.jpg
-
+.. image:: media/image1.png
 
 EasyQoS is an application that runs on top of APIC-EM. Hence, it is an
 integral part of the overall DNA architecture. The EasyQoS solution
