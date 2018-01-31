@@ -90,7 +90,7 @@ The following figure provides an overview of how the solution works.
 
 1. High-Level Overview of the EasyQoS Solution
 
-|image2|
+.. image:: media/image2.png
 
 In the center of the figure is the APIC-EM controller with the EasyQoS
 application running on top of it. Network operators express their
