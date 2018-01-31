@@ -2335,9 +2335,6 @@ o23-6500-1#show module
 
 Mod Ports Card Type Model Serial No.
 
---- ----- -------------------------------------- ------------------
------------
-
 **1 48 CEF720 48 port 10/100/1000mb Ethernet WS-X6748-GE-TX
 SAL10478SWP**
 
@@ -2352,9 +2349,6 @@ SAL10478SWP**
 …
 
 Mod Sub-Module Model Serial Hw Status
-
----- --------------------------- ------------------ ----------- -------
--------
 
 **1 Centralized Forwarding Card WS-F6700-CFC SAD074308C9 1.1 Ok**
 
