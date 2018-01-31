@@ -1,5 +1,9 @@
-Cisco EasyQoS Solution Design Guide, APIC-EM Release 1.6 - December, 2017
+Cisco EasyQoS Solution Design Guide
 ===============
+APIC-EM Release 1.6
+---------
+December, 2017
+^^^^^^^^^
 
 .. image:: media/image2.jpg
 
