@@ -4894,9 +4894,6 @@ Mod MAC addresses Hw Fw Sw Status
 
 Mod Sub-Module Model Serial Hw Status
 
----- --------------------------- ------------------ ----------- -------
--------
-
 1 Policy Feature Card 3 VS-F6K-PFC3CXL SAL14480QT0 1.2 Ok
 
 1 MSFC3 Daughterboard VS-F6K-MSFC3 SAL14470GJ9 5.1 Ok
