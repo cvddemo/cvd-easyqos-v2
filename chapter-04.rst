@@ -28,7 +28,7 @@ login page is shown in the figure below.
 
 1. APIC-EM Login Screen
 
-|image11|
+.. image:: media/image13.png
 
 Upon entering the proper login credentials (username and password) and
 clicking the Log In button, the network operator will be taken to the
@@ -36,7 +36,7 @@ APIC-EM Home page, as shown below.
 
 1. APIC-EM Home Page
 
-|image12|
+.. image:: media/image14.png
 
 APIC-EM supports both integration with an external AAA server via the
 RADIUS protocol, as well as an Internal Users database locally
@@ -81,7 +81,7 @@ following figure.
 
 1. APIC-EM Discovery Page
 
-|image13|
+.. image:: media/image15.png
 
 The Discovery page allows the network operator to create Discovery jobs
 based on either a Cisco Discovery Protocol (CDP) seed device or an IP
@@ -99,7 +99,7 @@ APIC-EM.
 
 1. Adding CLI Credentials to APIC-EM
 
-|image14|
+.. image:: media/image16.png
 
 SNMP credentials can be added similarly. The saved credentials can then
 be referenced within the Discovery process.
@@ -117,7 +117,7 @@ appears when selecting Device Controllability.
 
 1. Device Controllability Feature
 
-   |image15|
+.. image:: media/image17.png
 
 If the SNMP Autoconfig functionality within the Device Controllability
 feature is disabled (which is the default setting), the network operator
@@ -133,7 +133,7 @@ of the SNMP Properties page is shown below.
 
 1. SNMP Properties
 
-|image16|
+.. image:: media/image18.png
 
 APIC-EM release 1.4 and higher allows the polling interval by which
 APIC-EM synchronizes the Device Inventory database with each network
@@ -142,7 +142,7 @@ example is shown in the figure below.
 
 1. Polling Interval
 
-|image17|
+.. image:: media/image19.png
 
 The default setting of 25 minutes is also the minimum polling interval.
 The polling interval can be extended up once every 24 hours if desired.
@@ -158,7 +158,7 @@ Inventory page. An example is shown in the following figure.
 
 1. APIC-EM Device Inventory Page
 
-|image18|
+.. image:: media/image20.png
 
 As mentioned previously, devices must be in a Managed state in order to
 provision EasyQoS policy. APIC-EM periodically (approximately every 25
@@ -177,7 +177,7 @@ figure below.
 
 1. Manual Resync of a Network Device
 
-|image19|
+.. image:: media/image21.png
 
 The manual resync feature, which is available as of APIC-EM release 1.4
 and higher, allows the network operator to set a longer polling interval
@@ -209,7 +209,7 @@ above. This brings up a popup screen, as shown in the figure below.
 
 1. Location Popup Screen
 
-|image20|
+.. image:: media/image22.png
 
 In order to create a new location, click the blue + adjacent to
 Available Locations. This will bring up a new blank box field below the
@@ -224,7 +224,7 @@ shown in the following figure.
 
 1. Setting the Address of the New Location
 
-|image21|
+.. image:: media/image23.png
 
 **********
 Host Inventory
@@ -278,7 +278,7 @@ following figure.
 
 1. APIC-EM Host Inventory Page
 
-|image22|
+.. image:: media/image24.png
 
 For wired Cisco device endpoints, after the endpoint information is
 collected, APIC-EM provisions ACE entries into the ACLs configured for
@@ -310,7 +310,7 @@ following figure.
 
 1. APIC-EM Top-Level Map
 
-|image23|
+.. image:: media/image25.png
 
 Individual sites are identified by their location names. Locations that
 are geographically close are aggregated together and represented by a
@@ -319,7 +319,7 @@ site, as shown in the following figure.
 
 1. Zooming in to Reveal Aggregated Sites
 
-|image24|
+.. image:: media/image26.png
 
 Finally, by clicking the name of an individual location, the network
 operator can display the topology of the devices within the site. An
@@ -327,7 +327,7 @@ example is shown in the following figure.
 
 1. Displaying the Topology of Devices within a Location
 
-|image25|
+.. image:: media/image27.png
 
 APIC-EM automatically discovers the relationship between devices and
 connects them together within the Topology page. Individual devices or
@@ -345,7 +345,7 @@ in the figure below.
 
 1. Selecting the Role of a Device from Within the Topology Page
 
-|image26|
+.. image:: media/image28.png
 
 Each discovered network infrastructure device is automatically
 categorized into one of the following roles:
@@ -388,7 +388,7 @@ shown in the following figure.
 
 1. APIC-EM EasyQoS
 
-|image27|
+.. image:: media/image29.png
 
 As shown in the figure above, the EasyQoS application has several tabs
 that appear as a bar across the top of the page.
@@ -441,7 +441,7 @@ example is shown in the following figure.
 
 1. Creating a New Policy Scope
 
-|image28|
+.. image:: media/image30.png
 
 -  Note: The Policy Scope name cannot include any blank spaces. Use
    either an underscore, dash, or single word for the Policy Scope name.
@@ -462,7 +462,7 @@ below.
 
 1. Displaying Network Devices within a Policy Scope
 
-|image29|
+.. image:: media/image31.png
 
 Individual network devices can be deleted from the policy scope by
 clicking the “x” next to the network device name. The Save button must
@@ -487,7 +487,7 @@ Application Registry is shown in the figure below:
 
 1. Application Registry
 
-|image30|
+.. image:: media/image32.png
 
 Applications can be grouped in multiple ways when viewing them within
 the left-panel of the Application Registry as follows:
@@ -532,7 +532,7 @@ shown in the figure below.
 
 1. Selecting Favorite Applications
 
-|image31|
+.. image:: media/image33.png
 
 The list of Favorite applications is global to the APIC-EM EasyQoS
 deployment—meaning that Favorites are the same across all Policy Scopes.
@@ -556,7 +556,7 @@ below.
 
 1. Selecting an Application within the Application Registry
 
-|image32|
+.. image:: media/image34.png
 
 Clicking the Edit button will change the right-hand panel, allowing the
 network operator to select the desired traffic-class of the application
@@ -566,7 +566,7 @@ corner of the panel in order to save the changes to the application.
 
 1. Changing the Traffic-Class of an Application Example
 
-|image33|
+.. image:: media/image35.png
 
 Changing the traffic-class of an application will modify the EasyQoS
 ingress classification & marking policy for that particular application.
@@ -596,7 +596,7 @@ following figure.
 
 1. Custom Application Based on a URL
 
-|image34|
+.. image:: media/image36.png
 
 In the example above, the Custom application is based on a URL. For an
 EasyQoS Custom application based on a URL, the network operator must
@@ -639,7 +639,7 @@ is shown in the following figure.
 
 1. Custom Application Based on Server IP Address and Ports
 
-|image35|
+.. image:: media/image37.png
 
 For an EasyQoS Custom application based on a server IP addresses and
 ports, the network operator needs to provide the following information:
@@ -719,7 +719,7 @@ Profile is fixed, as shown in the following figure.
 
 1. Default Queuing Profile
 
-|image36|
+.. image:: media/image38.png
 
 In order to modify the bandwidth allocations or DSCP markings, the
 network operator must create a new custom Queuing Profile by clicking
@@ -729,7 +729,7 @@ Queuing Profile screen similar to the one in the following figure.
 
 1. Creating a Custom Queuing Profile – BW Allocation Example
 
-|image37|
+.. image:: media/image39.png
 
 The network operator must first provide a unique name for the custom
 Queuing Profile.
@@ -859,7 +859,7 @@ DSCP instead of one of the link speeds (100 Gbps, 10/40 Gbps, 1 Gbps,
 
 1. Creating a Custom Queuing Profile – DSCP Markings Example
 
-|image38|
+.. image:: media/image40.png
 
 DSCP markings for the Best Effort (Default) and Network Control
 traffic-classes cannot be modified. EasyQoS does not provision a
@@ -993,7 +993,7 @@ figure:
 
 1. Default SP Profiles Provided by EasyQoS
 
-|image39|
+.. image:: media/image41.png
 
 The network operator can view the bandwidth allocations and the admitted
 DSCP markings for each of the service provider traffic-classes for each
@@ -1012,7 +1012,7 @@ corner of the page. This will bring up a page similar to the following:
 
 1. Creating a Custom SP Profile
 
-|image40|
+.. image:: media/image42.png
 
 Custom service provider profiles are based on the four default SP
 profile templates—meaning that custom SP profiles can only have 4, 5, 6,
@@ -1072,7 +1072,7 @@ below.
 
 1. Excluding One or More Interfaces from EasyQoS Policy
 
-|image41|
+.. image:: media/image43.png
 
 This will bring up a drop-down menu listing the interfaces on the
 particular switch or router platform. The network operator can exclude
@@ -1098,7 +1098,7 @@ the policy itself. An example is shown in the figure below.
 
 1. Creating a Policy Within a Policy Scope
 
-|image42|
+.. image:: media/image44.png
 
 Policies are created and applied per policy scope. Therefore policies
 only affect those devices that are part of the particular scope to which
@@ -1110,7 +1110,7 @@ below.
 
 1. Configuring EasyQoS Policy
 
-|image43|
+.. image:: media/image45.png
 
 It is mandatory to name each QoS policy. The purpose of the policy is as
 follows:
@@ -1179,7 +1179,7 @@ example using the Custom application discussed earlier is shown below.
 
 1. Adding Bi-Directionality and a Consumer to an Application
 
-|image44|
+.. image:: media/image46.png
 
 All Ingress classification & marking policies implemented on Catalyst
 switches use ACE entries within ACLs. Ingress classification & marking
@@ -1242,7 +1242,7 @@ an additional panel will appear as shown in the following figure.
 
 1. Generating a Policy Preview for a Device
 
-|image45|
+.. image:: media/image47.png
 
 The Preview Policy Config panel allows the network operator to generate
 the actual commands that will be provisioned to each device by EasyQoS.
@@ -1255,7 +1255,7 @@ is shown in the figure below.
 
 1. Displaying the Preview Configuration
 
-   |image46|
+.. image:: media/image48.png
 
 The preview policy option can be useful in uncovering potential errors
 in applying policy—such as an unsupported line card within a Catalyst
@@ -1277,7 +1277,7 @@ future date and time. An example is shown in the following figure.
 
 1. Scheduling a Policy
 
-|image47|
+.. image:: media/image49.png
 
 APIC-EM release 1.4 and higher supports the ability to schedule a policy
 at a future time and date. Scheduled policies are applied only
@@ -1289,7 +1289,7 @@ policy screen will appear similar to the example in the figure below.
 
 1. Policy Scheduled for a Future Date and/or Time
 
-|image48|
+.. image:: media/image50.png
 
 The policy scope to which the policy will be applied is locked when a
 policy is scheduled to be applied at a future date and/or time. This
@@ -1318,7 +1318,7 @@ following figure.
 
 1. Policy Status
 
-|image49|
+.. image:: media/image51.png
 
 Clicking the information button next to each network device brings up a
 popup window with Device Details. The Device Details window serves two
@@ -1331,7 +1331,7 @@ is shown in the figure below.
 
 1. Device Details when Policy is Successfully Applied to a Device
 
-|image50|
+.. image:: media/image52.png
 
 Only applications which are business-relevant or business-irrelevant are
 configured into policies on switch, router, and AireOS WLC platforms.
@@ -1345,7 +1345,7 @@ policy failed. An example is shown in the figure below.
 
 1. Device Details when Policy Fails to be Applied to a Device
 
-|image51|
+.. image:: media/image53.png
 
 In the example above, the information within the Device Details screen
 indicates that policy was skipped because AutoQoS is currently enabled
@@ -1361,7 +1361,7 @@ displays the policy, as shown in the following figure.
 
 1. Displaying a Policy
 
-|image52|
+.. image:: media/image54.png
 
 The network operator’s business intent—in terms of the
 business-relevance of applications—is applied per policy. This means
@@ -1407,7 +1407,7 @@ figure.
 
 1. Show History
 
-|image53|
+.. image:: media/image55.png
 
 The Policy History panel displays previous versions of the policy
 selected. The network operator can view the changes in the policy that
@@ -1504,7 +1504,7 @@ the following figure.
 
 1. Enabling Host Tracking
 
-|image54|
+.. image:: media/image56.png
 
 The Host Tracking feature can be enabled as the EasyQoS policy is being
 created, or after the EasyQoS policy has been created. However, the
@@ -1537,7 +1537,7 @@ is shown in the figure below.
 
 1. Adding a Wireless Policy to a Policy Scope
 
-|image55|
+.. image:: media/image57.png
 
 Clicking the wireless policy displays the policy, as shown in the figure
 below.
@@ -1654,7 +1654,7 @@ bring up the screen shown in the figure below.
 
 1. Enabling Dynamic QoS
 
-|image57|
+.. image:: media/image59.png
 
 For APIC-EM 1.6 Dynamic QoS is a feature that is enabled
 globally—meaning across all policy scopes—through the sliding button
@@ -1673,7 +1673,7 @@ shown in the figure below.
 
 1. Example of an Active Dynamic Voice Call
 
-|image58|
+.. image:: media/image60.png
 
 The Path Trace tool can be used to troubleshoot active Dynamic QoS flows
 by displaying the path of the traffic through the network infrastructure
@@ -1682,7 +1682,7 @@ figure below.
 
 1. Example of the Output of the Path Trace Tool for a Dynamic Flow
 
-|image59|
+.. image:: media/image61.png
 
 The Path Trace tool displays the path of the traffic associated with the
 Dynamic QoS flow through the network infrastructure within the top panel
