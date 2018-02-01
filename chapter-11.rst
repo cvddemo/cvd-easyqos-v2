@@ -320,7 +320,7 @@ operates for wired devices, when setting-up a call.
 
 1. Dynamic QoS—Wired Voice/Video Call Proceeding
 
-|image120|
+.. image:: media/image122.png
 
 As shown in the figure above, call signaling agents such as CUCM signal
 to APIC-EM of a proceeding call via a northbound REST-based API. The
@@ -398,7 +398,7 @@ operates for wired devices, when tearing-down a call.
 
 1. Dynamic QoS—Wired Voice/Video Call Termination
 
-|image121|
+.. image:: media/image123.png
 
 As can be seen in the figure above, CUCM signals to APIC-EM via the
 REST-based API that the call has terminated. For calls with voice and
