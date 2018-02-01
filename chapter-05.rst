@@ -20,7 +20,7 @@ following figure.
 
 1. Enabling EasyQoS Monitoring
 
-|image60|
+.. image:: media/image62.png
 
 The EasyQoS policy should be re-applied to the policy scope after
 enabling the Monitoring feature. The Monitoring feature will add the
@@ -48,7 +48,7 @@ in the figure below.
 
 1. Device Level Statistics with All Traffic-Classes Selected
 
-|image61|
+.. image:: media/image63.png
 
 The device-level view displays the router platforms within the selected
 policy scope, and the status of the Monitoring feature on those devices.
@@ -105,7 +105,7 @@ column appears in the device-level view, as shown in the figure below.
 
 1. Device-Level Statistics with Single Traffic-Class Selected
 
-|image62|
+.. image:: media/image64.png
 
 The drop-down menu adjacent to Application Health allows the network
 operator to filter the output based on the status for the router. For
@@ -126,7 +126,7 @@ Health Score Thresholds popup window shown in the figure below.
 
 1. Modifying Health Score Thresholds
 
-|image63|
+.. image:: media/image65.png
 
 For each traffic-class, the network operator can modify the Sensitivity
 Factor—either via the slider, or by typing in a value in the box
@@ -212,7 +212,7 @@ below.
 
 1. Monitoring Device Details
 
-|image64|
+.. image:: media/image66.png
 
 The Device Details screen displays the queue drops per traffic-class for
 the selected WAN interface on the router. It also displays the health
