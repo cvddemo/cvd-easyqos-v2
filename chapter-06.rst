@@ -1197,7 +1197,7 @@ WAN-edge egress queuing policy with the default Queuing profile applied.
 1. Bandwidth Allocation Model for the WAN-Edge Egress Queuing Policy
    with Default Queuing Profile
 
-|image65|
+.. image:: media/image67.png
 
 -  Note: The bandwidth allocations per traffic-class for the default
    CVD\_Queuing\_Profile within APIC-EM 1.5 and higher are the same as
