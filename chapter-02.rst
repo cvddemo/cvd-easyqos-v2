@@ -16,7 +16,7 @@ the figure below.
 
 1. What Do You Consider First?
 
-|image3|
+.. image:: media/image5.png
 
 ***************
 Where to Start?
@@ -72,7 +72,7 @@ three main states of business-relevance:
 
 1. Determining Application Business Relevance
 
-|image4|
+.. image:: media/image6.png
 
 The 1300+ applications in Cisco’s Network Based Application Recognition
 (NBAR) library have already been pre-programmed according to their most
@@ -113,7 +113,7 @@ figure.
 
 1. Cisco (RFC 4594-Based) QoS Recommendations
 
-|image5|
+.. image:: media/image7.png
 
 RFC 4594 also provides some application classification rules to help
 network architects to assign applications to the optimal
@@ -137,7 +137,7 @@ further, as shown in the following figure.
 
 1. Control Plane Traffic-classes
 
-|image6|
+.. image:: media/image8.png
 
 Network Control—This traffic class is intended for network control plane
 traffic, which is required for reliable operation of the enterprise
@@ -167,7 +167,7 @@ following figure.
 
 1. Voice Traffic Class
 
-|image7|
+.. image:: media/image9.png
 
 Voice—This traffic class is intended for voice/audio traffic (VoIP
 signaling traffic is assigned to the Call-Signaling class). Traffic
@@ -183,7 +183,7 @@ the type of video, as illustrated in the following figure.
 
 1. Video Traffic-classes
 
-|image8|
+.. image:: media/image10.png
 
 To determine the optimal traffic classification for a video application,
 two key questions need to be answered:
@@ -234,7 +234,7 @@ videos, etc.
 
 1. Data Traffic-classes
 
-|image9|
+.. image:: media/image11.png
 
 When it comes to data applications, there is really only one key
 question to answer (as illustrated in the figure above): is the data
