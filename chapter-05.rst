@@ -224,7 +224,7 @@ Per traffic-class queue drops for WAN interfaces are collected via the
 EasyQoS to each WAN interface of monitored routers. An example partial
 output from the command is shown below.
 
-.. code-block::
+.. code-block:: rst
 
 WE-ASR1002X-1#show policy-map interface GigabitEthernet0/0/3 out
 
