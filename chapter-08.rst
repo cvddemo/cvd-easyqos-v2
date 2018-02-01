@@ -315,7 +315,7 @@ the QoS policies applied to each switch based upon its role.
 
 1. Catalyst and Nexus Switch Roles within the EasyQoS Solution
 
-|image75|
+.. image:: media/image77.png
 
 The following are the restrictions regarding the roles that the various
 supported Catalyst and Nexus switch platforms can have within the
