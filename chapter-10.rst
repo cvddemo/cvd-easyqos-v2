@@ -46,7 +46,7 @@ in the figure below.
 
 1. Enabling per WLAN / SSID QoS Features
 
-|image110|
+.. image:: media/image112.png
 
 As a result of enabling the Fastlane feature, the steps discussed within
 the following sections are implemented automatically by the WLC platform
@@ -145,7 +145,7 @@ enforcement points is shown in the following figure.
 
 1. Wireless Trust Boundaries and Policy Enforcement Points
 
-|image111|
+.. image:: media/image113.png
 
 Explanation of the various trust boundaries and policy enforcement
 points can best be explained based on type of wireless client as
@@ -245,7 +245,7 @@ shown in the figure below.
 
 1. 802.11 UP Values and ACs
 
-|image112|
+.. image:: media/image114.png
 
 The following global command configured on AireOS WLCs by APIC-EM
 EasyQoS will cause the AP to mark the ToS field of the outer CAPWAP
@@ -316,7 +316,7 @@ below.
 1. Platinum QoS Profile Configuration After EasyQoS / Fastlane
    Modifications
 
-|image113|
+.. image:: media/image115.png
 
 The Platinum QoS Profile is applied to every SSID/WLAN controlled by
 EasyQoS. This is accomplished via the following SSID/WLAN-level command
@@ -404,7 +404,7 @@ of the QoS Map is modified to appear as shown in the figure below.
 
 1. QoS Map Configuration After EasyQoS / Fastlane Modifications
 
-|image114|
+.. image:: media/image116.png
 
 The result of the QoS Map configuration is to map values as shown in the
 table below.
@@ -668,7 +668,7 @@ of the AVC Profile is as shown in the figure below.
 
 1. Configuration of the AVC Profile
 
-|image115|
+.. image:: media/image117.png
 
 By default, the AVC policy is unidirectional. This means that the AVC
 policy is applied to individual applications within the profile only in
@@ -762,7 +762,7 @@ the figure below.
 
 1. Configuration of the EDCA Profile for Fastlane on a Radio
 
-|image116|
+.. image:: media/image118.png
 
 Voice Call Admission Control
 
@@ -800,7 +800,7 @@ of voice CAC per radio is as shown in the figure below.
 
 1. Configuration of Voice CAC per Radio
 
-|image117|
+.. image:: media/image119.png
 
 Enabling WLANs and Radios
 
@@ -821,8 +821,8 @@ in the figures below.
 
 1. Enabling / Disabling Radios
 
-|image118|
+.. image:: media/image120.png
 
 1. Enabling / Disabling WLANs
 
-|image119|
+.. image:: media/image121.png
