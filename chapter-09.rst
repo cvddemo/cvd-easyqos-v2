@@ -145,7 +145,7 @@ EasyQoS within the default CVD\_Queuing\_Profile.
 1. Default 1P3Q3T Egress Queuing for Catalyst 2K / 3K and SM-ES2
    EtherSwitch Module
 
-|image76|
+.. image:: media/image78.png
 
 The following configuration provisioned by EasyQoS implements the 1P3Q3T
 egress queuing structure. Comments have been added to the configuration
@@ -815,7 +815,7 @@ EasyQoS.
 
 1. 1P1Q3T Ingress Queuing for the Catalyst 3K / 2K Series Platforms
 
-|image77|
+.. image:: media/image79.png
 
 The following configuration implements the 1P1Q3T ingress queuing
 structure deployed by EasyQoS.
@@ -926,7 +926,7 @@ The following figure shows the 2P6Q3T egress queuing model.
 1. Default 2P6Q3T Egress Queuing for the Catalyst 3650 and 3850 Series
    Switches
 
-|image78|
+.. image:: media/image80.png
 
 The following configuration, provisioned by EasyQoS, implements the
 class-maps for the 2P6Q3T egress queuing structure.
@@ -1679,7 +1679,7 @@ The following figure shows the default 1P7Q1T egress queueing model.
 
 1. Default 1P7Q1T+DBL Egress Queuing for the Catalyst 4500 Series
 
-|image79|
+.. image:: media/image81.png
 
 The following configuration, provisioned by EasyQoS, implements the
 default class-maps for the 1P7Q1T egress queuing structure.
@@ -2373,7 +2373,7 @@ following figure shows the 1Q8T ingress queuing model.
 1. 1Q8T Ingress Queuing Models—CoS-to-Queue Mapping with CoS-Based
    Tail-Drop
 
-|image80|
+.. image:: media/image82.png
 
 Because the 1Q8T ingress queuing structure only supports one queue,
 there are no class-map definitions. All traffic is mapped to
@@ -2531,7 +2531,7 @@ shows the 2Q4T ingress queuing model.
 1. 2Q4T Ingress Queuing Models—CoS-to-Queue Mapping with CoS-Based
    Tail-Drop
 
-|image81|
+.. image:: media/image83.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-map for the 2Q4T ingress queuing structure.
@@ -2714,7 +2714,7 @@ The following figure shows the 2Q8T ingress queuing model.
 1. 2Q8T Ingress Queuing Models—CoS-to-Queue Mapping with CoS-based
    Tail-Drop
 
-|image82|
+.. image:: media/image84.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-maps for the 2Q8T ingress queuing structure.
@@ -2889,7 +2889,7 @@ The following figure shows the default 8Q4T ingress queuing model.
 1. Default 8Q4T Ingress Queuing Model—DSCP-to-Queue Mapping with
    DSCP-based WRED
 
-|image83|
+.. image:: media/image85.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the default class-maps for the 8Q4T ingress queuing structure.
@@ -3177,7 +3177,7 @@ following figure shows the 8Q8T ingress queuing model.
 1. 8Q8T Ingress Queuing Models—CoS-to-Queue Mapping with CoS-based
    Tail-Drop
 
-|image84|
+.. image:: media/image86.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-maps for the 8Q8T ingress queuing structure.
@@ -3318,7 +3318,7 @@ model.
 1. Default 2P6Q4T Ingress and Egress Queuing Model—DSCP-to-Queue Mapping
    with DSCP-based WRED
 
-|image85|
+.. image:: media/image87.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-maps for the default 2P6Q4T queuing structure.
@@ -4045,7 +4045,7 @@ The following figure shows the 1P3Q8T egress queuing model.
 1. 1P3Q8T Egress Queuing Model—Cos-to-Queue Mapping with CoS-based
    Tail-Drop
 
-|image86|
+.. image:: media/image88.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-maps for the 1P3Q8T egress queuing structure.
@@ -4212,7 +4212,7 @@ the 1P3Q4T egress queuing model.
 
 1. 1P3Q4T Egress Queuing Model—CoS-to-Queue Mapping with CoS-based WRED
 
-|image87|
+.. image:: media/image89.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-maps for the 1P3Q4T egress queuing structure.
@@ -4348,7 +4348,7 @@ The following figure shows the default 1P7Q4T egress queuing model.
 1. 1P7Q4T Egress Queuing Model—DSCP-to-Queue Mapping with DSCP-based
    WRED
 
-|image88|
+.. image:: media/image90.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-maps for the default 1P7Q4T egress queuing structure.
@@ -4622,7 +4622,7 @@ The following figure shows the 1P7Q8T egress queuing model.
 1. 1P7Q8T Egress Queuing Model—CoS-to-Queue Mapping with CoS-based
    Tail-Drop
 
-|image89|
+.. image:: media/image91.png
 
 The following configuration, provisioned by APIC-EM EasyQoS, implements
 the class-maps for the 1P7Q8T egress queuing structure.
@@ -4777,7 +4777,7 @@ Sup-720.
 
 1. When is Ingress Queuing Applied?
 
-|image90|
+.. image:: media/image92.png
 
 As can be seen in the figure above, ingress queuing applies under the
 following conditions:
@@ -4915,7 +4915,7 @@ EasyQoS solution for these line cards.
    WS-X6748-GE-TX with CFC, and WS-X6704-10GE with CFC when “trust cos”
    is Not Configured
 
-|image91|
+.. image:: media/image93.png
 
 An example of the configuration pushed by APIC-EM for each of the ports
 on these line cards is shown below.
@@ -5031,7 +5031,7 @@ APIC-EM EasyQoS for the Sup-720-10GE when the 1 Gbps ports are enabled.
 1. Queuing for VS-S720-10G-3C and VS-S720-10G-3CXL with Gigabit Ethernet
    ports enabled and when “trust cos” is Not Configured
 
-|image92|
+.. image:: media/image94.png
 
 An example of the configuration provisioned by APIC-EM EasyQoS for the
 Sup720-10GE ports is shown below.
@@ -5136,7 +5136,7 @@ WS-X6748-GE-TX with DFC3C/DFC3CXL line cards.
 1. Queuing for WS-X6724-SFP, WS-X6748-SFP, WS-X6748-GE-TX with a DFC3C
    or DFC3XL when “trust cos” is not configured
 
-|image93|
+.. image:: media/image95.png
 
 An example of the configuration pushed by APIC-EM EasyQoS for the
 WS-X6724-SFP, WS-X6748-SFP, and WS-X6748-GE-TX with DFC3C/DFC3CXL line
@@ -5250,7 +5250,7 @@ figure shows the 8Q4T ingress queuing model.
 
 1. 8Q4T Ingress Queuing Models—DSCP-to-Queue with DSCP-based WRED
 
-|image94|
+.. image:: media/image96.png
 
 The following example configuration implements the 8Q4T ingress queuing
 structure to a TenGigabitEthernet interface.
@@ -5372,7 +5372,7 @@ APIC-EM EasyQoS for these line cards.
 1. Queuing for WS-X6704-10GE with a DFC3 or DFC3XL when “trust cos” is
    Not Configured
 
-|image95|
+.. image:: media/image97.png
 
 An example of the configuration provisioned by APIC-EM EasyQoS for these
 line cards is shown below.
@@ -5411,7 +5411,7 @@ The following figure shows the 1P3Q8T egress queuing model.
 
 1. 1P3Q8T Egress Queuing Models—CoS-to-Queue Mapping with CoS-WRED
 
-|image96|
+.. image:: media/image98.png
 
 An example of the configuration provisioned by APIC-EM EasyQoS to a port
 on these line cards is shown below.
@@ -5479,7 +5479,7 @@ the 1P3Q4T egress queuing model.
 
 1. 1P3Q4T Egress Queuing Models—CoS-to-Queue Mapping with CoS-WRED
 
-|image97|
+.. image:: media/image99.png
 
 An example of the configuration provisioned by APIC-EM EasyQoS to both a
 Gigabit Ethernet and a TenGigabitEthernet port on these line cards is
@@ -5596,7 +5596,7 @@ figure shows the 1P7Q4T egress queuing model.
 1. 1P7Q4T Egress Queuing Models—DSCP-to-Queue Mapping with DSCP-based
    WRED
 
-|image98|
+.. image:: media/image100.png
 
 An example of the configuration provisioned by APIC-EM EasyQoS to a
 TenGigabitEthernet port on these line cards is shown below.
@@ -5696,7 +5696,7 @@ The following figure shows the 1P7Q8T egress queuing model.
 
 1. 1P7Q8T Egress Queuing Models—CoS-to-Queue Mapping with COS-based WRED
 
-|image99|
+.. image:: media/image101.png
 
 An example of the configuration provisioned by APIC-EM EasyQoS to a
 TenGigabitEthernet port on these line cards is shown below.
@@ -5852,14 +5852,14 @@ queuing model.
 
 1. Ingress Queuing Model (8Q2T)—CoS-to-Queue Mapping
 
-|image100|
+.. image:: media/image102.png
 
 The following figure shows the DSCP-to-queue mapping for the 8Q2T
 ingress queuing model.
 
 1. Ingress Queuing Model (8Q2T)—DSCP-to-Queue Mapping
 
-|image101|
+.. image:: media/image103.png
 
 NX OS provides system-defined class-map names that cannot be renamed.
 The system-defined class-map names that match the eight ingress queues
@@ -6099,7 +6099,7 @@ modules. The following figure shows the CoS-to-queue mapping for the
 
 1. Egress Queuing Model (1P7Q4T)—CoS-to-Queue Mapping
 
-|image102|
+.. image:: media/image104.png
 
 NX OS provides system-defined class-map names that cannot be renamed.
 The system-defined class-map names that match the eight output queues of
@@ -6346,7 +6346,7 @@ chassis.
 1. NX-OS Network-QoS Templates for the F2, F2e, and F3 Series Modules on
    the Nexus 7000
 
-|image103|
+.. image:: media/image105.png
 
 Network-qos policy template names contain the abbreviation “nq”,
 referring to network-qos, and “e,” referring to Ethernet. The numbers 4,
@@ -6416,14 +6416,14 @@ of the network-qos policy templates.
 
 1. Default Ingress Queuing Models for the Network-QoS Templates
 
-|image104|
+.. image:: media/image106.png
 
 The following figure shows the default egress queuing models for each of
 the network-qos policy templates.
 
 1. Default Egress Queuing Models for the Network-QoS Templates
 
-|image105|
+.. image:: media/image107.png
 
 As can be seen from the figures above, the default-nq-8e-4q4q-policy
 implements a 4Q1T ingress queuing structure and a1P3Q1T egress queuing
@@ -6565,14 +6565,14 @@ queuing model deployed by APIC-EM for the EasyQoS solution.
 
 1. Ingress Queuing Model (4Q1T)—CoS-to-Queue Mapping
 
-|image106|
+.. image:: media/image108.png
 
 The following figure shows the DSCP-to-queue mapping for the 4Q1T
 ingress queuing model deployed by APIC-EM for the EasyQoS solution.
 
 1. Ingress Queuing Model (4Q1T)—DSCP-to-Queue Mapping
 
-|image107|
+.. image:: media/image109.png
 
 NX OS provides system-defined class-map names that cannot be renamed.
 The system-defined class-map names that match the four ingress queues of
@@ -6829,7 +6829,7 @@ mapping for the 1P3Q1T egress queuing model.
 
 1. Egress Queuing Model (1P3Q1T)—CoS-to-Queue Mapping
 
-|image108|
+.. image:: media/image110.png
 
 NX OS provides system-defined class-map names that cannot be renamed.
 The system-defined class-map names that match the four output queues of
@@ -7399,7 +7399,7 @@ the 1P7Q1T egress queuing model.
 
 1. Egress Queuing Model (1P7Q1T)—CoS-to-Queue Mapping
 
-|image109|
+.. image:: media/image111.png
 
 NX OS provides system-defined class-map names that cannot be renamed.
 The system-defined class-map names that match the eight output queues of
