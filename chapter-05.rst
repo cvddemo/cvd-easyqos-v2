@@ -224,16 +224,26 @@ Per traffic-class queue drops for WAN interfaces are collected via the
 EasyQoS to each WAN interface of monitored routers. An example partial
 output from the command is shown below.
 
-.. code-block:: python
+.. code-block::
+
 WE-ASR1002X-1#show policy-map interface GigabitEthernet0/0/3 out
+
 GigabitEthernet0/0/3
+
 Service-policy output: prm-dscp#EQ\_SPP1-4Class#shape#50.0
+
 Class-map: class-default (match-any)
+
 48605130 packets, 5809744482 bytes
+
 30 second offered rate 7000 bps, drop rate 0000 bps
+
 Match: any
+
 Queueing
+
 queue limit 208 packets
+
 (queue depth/total drops/no-buffer drops) 0/0/0
 (pkts output/bytes output) 48523512/5803867986
 shape (average) cir 50000000, bc 200000, be 200000
