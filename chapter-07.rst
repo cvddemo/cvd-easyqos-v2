@@ -272,7 +272,7 @@ SPP1/SPP:SPP1-4Class service provider profile.
 
 1. WAN Bandwidth Allocation for the SPP1/SPP:SPP1-4Class
 
-|image66|
+.. image:: media/image68.png
 
 The egress queuing policy class-map definitions provisioned by EasyQoS
 for all of the SPPs discussed here are the same as was as discussed in
@@ -287,7 +287,7 @@ for the service provider traffic-classes.
 
 1. EasyQoS Marking Mappings Into SPP1/SPP:SPP1-4Class
 
-|image67|
+.. image:: media/image69.png
 
 The following is an example of the hierarchical policy-map definition
 provisioned by EasyQoS that implements the SPP1/SPP:SPP1-4Class egress
@@ -585,7 +585,7 @@ SPP2/SPP:SPP2-5Class service provider profile.
 
 1. WAN Bandwidth Allocation for the SPP2/SPP:SPP2-5Class
 
-|image68|
+.. image:: media/image70.png
 
 For the SPP2/SPP:SPP2-5Class, EasyQoS must map the RFC 4594-based
 12-class QoS model implemented within the organization into the five
@@ -595,7 +595,7 @@ for the service provider traffic-classes.
 
 1. EasyQoS Marking Mappings into SPP2/SPP:SPP2-5Class
 
-|image69|
+.. image:: media/image71.png
 
 The following is an example of the hierarchical policy-map definition
 provisioned by EasyQoS that implements the SPP2/SPP:SPP2-5Class queuing
@@ -792,7 +792,7 @@ SPP3/SPP:SPP3-6Class service provider profile.
 
 1. WAN Bandwidth Allocation for the SPP3/SPP:SPP3-6Class
 
-|image70|
+.. image:: media/image72.png
 
 For the SPP3/SPP:SPP3-6Class, EasyQoS must map the RFC 4594-based
 12-class QoS model implemented within the organization into the six
@@ -802,7 +802,7 @@ for the service provider traffic-classes.
 
 1. EasyQoS marking Mappings Into SPP3/SPP:SPP3-6Class
 
-|image71|
+.. image:: media/image73.png
 
 The following is an example of the hierarchical policy-map definition
 provisioned by EasyQoS that implements the SPP3/SPP:SPP3-6Class queuing
@@ -1023,7 +1023,7 @@ SPP4/SPP:SPP4-8Class service provider profile.
 
 1. WAN Bandwidth Allocation for the SPP4/SPP:SPP4-8Class
 
-|image72|
+.. image:: media/image74.png
 
 For the SPP4/SPP:SPP4-8Class, EasyQoS must map the RFC 4594-based
 12-class QoS model implemented within the organization into the eight
@@ -1033,7 +1033,7 @@ for the service provider traffic-classes.
 
 1. EasyQoS Marking Mappings into SPP4
 
-|image73|
+.. image:: media/image75.png
 
 The following is an example of the hierarchical policy-map definition
 provisioned by EasyQoS that implements the SPP4/SPP:SPP4-8Class queuing
@@ -1412,7 +1412,7 @@ applied to physical interfaces and/or logical sub-interfaces.
 1. Flowchart for Egress Queuing Policy Based on SPP Tagging of Interface
    and Sub-Interface
 
-|image74|
+.. image:: media/image76.png
 
 There are seven outcomes for provisioning the egress queuing policy in
 the figure above. Each is discussed below.
