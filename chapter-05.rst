@@ -224,7 +224,7 @@ Per traffic-class queue drops for WAN interfaces are collected via the
 EasyQoS to each WAN interface of monitored routers. An example partial
 output from the command is shown below.
 
- .. code-block:: rst
+.. code-block:: rst
 
    WE-ASR1002X-1#show policy-map interface GigabitEthernet0/0/3 out
 
@@ -245,42 +245,79 @@ output from the command is shown below.
    queue limit 208 packets
 
    (queue depth/total drops/no-buffer drops) 0/0/0
+
    (pkts output/bytes output) 48523512/5803867986
+
    shape (average) cir 50000000, bc 200000, be 200000
+
    target shape rate 50000000
+
    Service-policy : prm-dscp#EQ\_SPP1-4Class
+
    queue stats for all priority classes:
+
    Queueing
+
    queue limit 512 packets
+
    (queue depth/total drops/no-buffer drops) 0/0/0
+
    (pkts output/bytes output) 730622/54226668
+
    Class-map: prm-EZQOS\_12C#VOICE (match-any)
+
    730622 packets, 54226668 bytes
+
    30 second offered rate 0000 bps, drop rate 0000 bps
+
    Match: dscp ef (46)
+
    **police:**
+
    rate 10 %
+
    rate 5000000 bps, burst 156250 bytes
+
    **conformed 730622 packets**, 54226668 bytes; actions:
+
    transmit
+
    **exceeded 0 packets**, 0 bytes; actions:
+
    drop
+
    conformed 0000 bps, exceeded 0000 bps
+
    Priority: Strict, b/w exceed drops: 0
+
    QoS Set
+
    dscp ef
+
    Marker statistics: Disabled
+
    Class-map: prm-EZQOS\_12C#BROADCAST (match-any)
+
    730592 packets, 54224448 bytes
+
    30 second offered rate 0000 bps, drop rate 0000 bps
+
    Match: dscp cs5 (40)
+
    Queueing
+
    queue limit 208 packets
+
    (queue depth/\ **total drops**/no-buffer drops) 0/\ **0**/0
+
    (**pkts output**/bytes output) **730592**/54224448
+
    bandwidth remaining 8%
+
    QoS Set
+
    dscp af31
+
    Marker statistics: Disabled
 
 …
