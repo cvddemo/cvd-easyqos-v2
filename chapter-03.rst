@@ -159,7 +159,7 @@ These queuing best practices are illustrated in the following figure.
 
 1. Queuing Best Practices
 
-|image10|
+.. image:: media/image12.png
 
 Real-Time Queue
 
