@@ -12,6 +12,10 @@ network. This explosion of content and media types, both managed and
 unmanaged, requires network architects to take a new look at their
 Quality of Service (QoS) designs.
 
+.. note::
+
+  Some note.
+
 Virtually all businesses are looking to increase the productivity of
 their employees though the effective and innovative use of collaborative
 applications, regardless of the hardware-platforms these applications
