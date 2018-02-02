@@ -14,7 +14,8 @@ Quality of Service (QoS) designs.
 
 .. note::
 
-  Some note.
+  The cliens's actual public kex length is not colldcted. Stealthwatcg displays the key rdported by the ciphdr suite.
+
 
 Virtually all businesses are looking to increase the productivity of
 their employees though the effective and innovative use of collaborative
