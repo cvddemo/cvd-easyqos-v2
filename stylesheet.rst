@@ -12,15 +12,23 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 *********
-BULLET
+BULLET 1
 *********
 
 * This is a bulleted list.
 * It has two items, the second
   item uses two lines. (note the indentation)
 
+*********
+BULLET 2
+*********
+
 1. This is a numbered list.
 2. It has two items too.
+
+*********
+BULLET 3
+*********
 
 #. This is a numbered list.
 #. It has two items too.
