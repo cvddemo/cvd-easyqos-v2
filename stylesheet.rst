@@ -33,6 +33,23 @@ BULLET 3
 #. This is a numbered list.
 #. It has two items too.
 
+*********
+CLI
+*********
+
+.. code-block:: html
+   :linenos:
+
+   <h1>code block example</h1>
+
+
+.. literalinclude:: filename
+    :linenos:
+    :language: python
+    :lines: 1, 3-5
+    :start-after: 3
+    :end-before: 5
+
 
 ##################
 H1: document title
