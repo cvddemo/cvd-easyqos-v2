@@ -57,6 +57,22 @@ This is a simple example::
 
     import math
     print 'import done'
+    
+    
+    
+This is a simple example::
+
+    AD5-9300#configure terminal 
+    AD5-9300(config)#flow record 'FNF-rec'
+    AD5-9300(config-flow-record)# match ipv4 protocol
+    AD5-9300(config-flow-record)# match ipv4 source address
+    AD5-9300(config-flow-record)# match ipv4 destination address
+    AD5-9300(config-flow-record)# match transport source-port
+    AD5-9300(config-flow-record)# match transport destination-port
+    AD5-9300(config-flow-record)# collect counter bytes long
+    AD5-9300(config-flow-record)# collect counter packets long
+    AD5-9300(config-flow-record)# collect timestamp absolute first
+    AD5-9300(config-flow-record)# collect timestam    
 
 
 
