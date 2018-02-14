@@ -12,7 +12,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 *********
-BULLET 1
+BULLET 1 
 *********
 
 * This is a bulleted list.
@@ -41,7 +41,7 @@ CLI
    :linenos:
 
     AD5-9300#configure terminal 
-    AD5-9300(config)#flow record *FNF-rec*
+    AD5-9300(config)#flow record 'FNF-rec'
     AD5-9300(config-flow-record)# match ipv4 protocol
     AD5-9300(config-flow-record)# match ipv4 source address
     AD5-9300(config-flow-record)# match ipv4 destination address
