@@ -122,11 +122,6 @@ The client's actual public key length is not collected. Stealthwatch displays th
 
 .. warning:: note the space between the directive and the text
 
+.. TechTip::  This is a **note** box.
 
-.. note::
-
-  Some note.
-
-
-.. note:: A short note.
 
