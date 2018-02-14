@@ -34,7 +34,7 @@ BULLET 3
 #. It has two items too.
 
 *********
-CLI
+CLI 1
 *********
 
 .. code-block:: html
@@ -52,15 +52,20 @@ CLI
     AD5-9300(config-flow-record)# collect timestamp absolute first
     AD5-9300(config-flow-record)# collect timestamp absolute last
 
+*********
+CLI 1
+*********
 
 This is a simple example::
 
     import math
     print 'import done'
     
+*********
+CLI 1
+*********
     
-    
-cli::
+example::
 
     AD5-9300# configure terminal 
     AD5-9300(config)# flow record ``FNF-rec``
@@ -73,7 +78,6 @@ cli::
     AD5-9300(config-flow-record)# collect counter packets long
     AD5-9300(config-flow-record)# collect timestamp absolute first
     AD5-9300(config-flow-record)# collect timestam    
-
 
 
 ##################
