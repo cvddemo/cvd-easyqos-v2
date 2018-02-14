@@ -105,3 +105,28 @@ Sample H5
 
 Sample H6
 """""""""
+
+
+
+*********
+Tip
+*********
+
+Tech Tip
+The client's actual public key length is not collected. Stealthwatch displays the key reported by the cipher suite
+
+
+.. seealso:: This is a simple **seealso** note.
+
+.. note::  This is a **note** box.
+
+.. warning:: note the space between the directive and the text
+
+
+.. note::
+
+  Some note.
+
+
+.. note:: A short note.
+
