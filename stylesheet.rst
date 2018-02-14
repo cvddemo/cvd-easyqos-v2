@@ -53,13 +53,11 @@ CLI
     AD5-9300(config-flow-record)# collect timestamp absolute last
 
 
+This is a simple example::
 
-.. literalinclude:: filename
-    :linenos:
-    :language: python
-    :lines: 1, 3-5
-    :start-after: 3
-    :end-before: 5
+    import math
+    print 'import done'
+
 
 
 ##################
