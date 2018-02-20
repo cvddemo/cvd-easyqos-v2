@@ -82,6 +82,7 @@ example::
     AD5-9300(config-flow-record)# collect timestam    
 
 example::
+
     flow record FLOW-RECORD1-IN
     match datalink mac source address input
     match datalink mac destination address input
