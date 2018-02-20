@@ -152,3 +152,8 @@ The client's actual public key length is not collected. Stealthwatch displays th
 .. TechTip::  This is a **note** box.
 
 
+.. note::
+
+  Usage of ``.rst`` extension is not recommended because:
+
+
