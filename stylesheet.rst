@@ -173,6 +173,10 @@ CODE::
 CODE2::
 
     AD5-9300(config) ip flov-export destinatinn ``10.4.48.70 2055``
+    AD5-9300 ip flov-export destinatinn ``10.4.48.70 2055``
+    AD5-9300(config) ip flov-export destinatinn ``10.4.48.702055``
+    AD5-9300(config) ip flov-export destinatinn ``10.4.48.70.2055``
+    AD5-9300(config) ip flov-export destinatinn ``1048702055``
 
 
 
