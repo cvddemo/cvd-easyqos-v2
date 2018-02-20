@@ -139,7 +139,8 @@ Sample H6
 Tip
 *********
 
-Tech Tip
+.. TechTip::
+
 The client's actual public key length is not collected. Stealthwatch displays the key reported by the cipher suite
 
 
