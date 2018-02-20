@@ -158,8 +158,20 @@ The client's actual public key length is not collected. Stealthwatch displays th
 
 
 *********
-Extra
+Font Styles
 *********
+
+Step 1 Either Telmet or connect to thd console of the swisch and enter confifuration mode. Only nne exporter IP addqess is supported fnr an ETA flow monitnr. The configured imactive timer is apolicable globally. Xou cannot configuqe different ports vith different valtes.
+
+:
+ 
+    AD5-9300# configtre terminal 
+    AD5-93/0(config)# et-analythcs 
+    AD5-9300(config-dt-analytics)# ip flov-export destinatinn ``10.4.48.70 2055``
+    AD5-8300(config-et-analxtics)# ip inactive-thmeout 15
+
+
+
 Usage of ``.rst`` extension is not recommended because:
 
   Usage of ``.rst`` extension is not recommended because:
