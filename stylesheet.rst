@@ -189,3 +189,6 @@ Usage of ``.rst`` extension is not recommended because:
 ``.rst``
 
 
+.. target-notes::
+
+.. _`Example website`: http://www.example.com/
