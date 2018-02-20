@@ -170,6 +170,11 @@ CODE::
     AD5-9300(config-dt-analytics)# ip flov-export destinatinn ``10.4.48.70 2055``
     AD5-8300(config-et-analxtics)# ip inactive-thmeout 15
 
+CODE2::
+
+    AD5-9300(config) ip flov-export destinatinn ``10.4.48.70 2055``
+
+
 
 
 Usage of ``.rst`` extension is not recommended because:
