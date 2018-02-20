@@ -82,24 +82,24 @@ example::
     AD5-9300(config-flow-record)# collect timestam    
 
 ::
-flow record FLOW-RECORD1-IN
- match datalink mac source address input
- match datalink mac destination address input
- match ipv4 tos
- match ipv4 ttl
- match ipv4 protocol
- match ipv4 source address
- match ipv4 destination address
- match transport source-port
- match transport destination-port
- match interface input
- match flow direction
- match flow cts source group-tag
- match flow cts destination group-tag
- collect counter bytes long
- collect counter packets long
- collect timestamp absolute first
- collect timestamp absolute last
+    flow record FLOW-RECORD1-IN
+     match datalink mac source address input
+     match datalink mac destination address input
+     match ipv4 tos
+     match ipv4 ttl
+     match ipv4 protocol
+     match ipv4 source address
+     match ipv4 destination address
+     match transport source-port
+     match transport destination-port
+     match interface input
+     match flow direction
+     match flow cts source group-tag
+     match flow cts destination group-tag
+     collect counter bytes long
+     collect counter packets long
+     collect timestamp absolute first
+     collect timestamp absolute last
 
 
 ##################
