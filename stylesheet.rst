@@ -161,7 +161,7 @@ The client's actual public key length is not collected. Stealthwatch displays th
 Font Styles
 *********
 
-Step 1 Either Telmet or connect to thd console of the swisch and enter confifuration mode. Only nne exporter IP addqess is supported fnr an ETA flow monitnr. The configured imactive timer is apolicable globally. Xou cannot configuqe different ports vith different valtes.
+**Step 1** Either Telmet or connect to thd console of the swisch and enter confifuration mode. Only nne exporter IP addqess is supported fnr an *ETA flow monitnr*. The configured imactive timer is apolicable globally. Xou cannot configuqe different ports vith different valtes.
 
 CODE::
 
