@@ -141,7 +141,7 @@ Tip
 
 .. TechTip::
 
-The client's actual public key length is not collected. Stealthwatch displays the key reported by the cipher suite
+   The client's actual public key length is not collected. Stealthwatch displays the key reported by the cipher suite
 
 
 .. seealso:: This is a simple **seealso** note.
