@@ -107,9 +107,9 @@ example::
         collect timestamp absolute last
 
 
-##################
-H1: document title
-##################
+    ##################
+    H1: document title
+    ##################
 
 Introduction text.
 
