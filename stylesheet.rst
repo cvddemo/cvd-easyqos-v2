@@ -139,6 +139,15 @@ Sample H6
 Tip
 *********
 
+
+
+!!! warning "Windows Users"
+    We currently only support CLI usage via `cmd.exe`. That said, there is an issue to add support for alternate shells 
+
+
+
+
+
 !!! attention
 
     Keep in mind that the ESP8266 needs to be [put into flash mode](#putting-device-into-flash-mode) before you can flash a new firmware!
