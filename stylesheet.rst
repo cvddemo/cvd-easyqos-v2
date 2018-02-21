@@ -195,6 +195,10 @@ Usage of ``.rst`` extension is not recommended because:
 ``.rst``
 
 
-.. target-notes::
+*********
+Links
+*********
 
-.. _`Example website`: http://www.example.com/
+
+`Python <http://www.python.org/>`_
+
