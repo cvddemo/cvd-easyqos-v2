@@ -139,6 +139,16 @@ Sample H6
 Tip
 *********
 
+!!! attention
+
+    Keep in mind that the ESP8266 needs to be [put into flash mode](#putting-device-into-flash-mode) before you can flash a new firmware!
+
+!!! Tech Tip
+
+    Keep in mind that the ESP8266 needs to be [put into flash mode](#putting-device-into-flash-mode) before you can flash a new firmware!
+
+
+
 .. TechTip::
 
    The client's actual public key length is not collected. Stealthwatch displays the key reported by the cipher suite
