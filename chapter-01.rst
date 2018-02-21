@@ -67,6 +67,17 @@ following figure.
 
 .. image:: media/image3.png
 
+
+
+.. figure:: media/image3.png
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
+    :figclass: align-center
+
+    figure are like images but with a caption
+
 EasyQoS is an application that runs on top of APIC-EM. Hence, it is an
 integral part of the overall DNA architecture. The EasyQoS solution
 abstracts QoS policy by using a declarative model as opposed to an
