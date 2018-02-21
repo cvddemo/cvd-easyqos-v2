@@ -21,9 +21,7 @@ APIC-EM Release 1.6, December, 2017
    /chapter-10
    /chapter-11
    /footer
-   /stylesheetrst
-   /stylesheetmd
-   /stylesheettxt   
+   /stylesheet   
    
    
 
